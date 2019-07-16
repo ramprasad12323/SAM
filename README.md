@@ -1,6 +1,6 @@
 # SAM [Smart Android Microcontroller]
 Arduino Side 
-Upload the Arduino firmware .hex files according to the board in the arduino microcontroller using Xloader. The files containing wdt means the board should support wdt reset.
+Upload the Arduino firmware .hex files according to the board in the arduino microcontroller using Xloader. The files containing wdt means the board should support wdt reset. This will work for only for Arduino containing FTDI serial chip on it.
 	
 Android Side 
 Copy the .aar file in the lib folder. Left click on it and Add library or file -> project structure -> Dependencies click the plus sign on dependencies and click on SAM_Lib and click on again apply and ok. The library is sucessfully added.
