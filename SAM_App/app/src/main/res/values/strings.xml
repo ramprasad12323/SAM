@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Smart Android Mocrocontroller</string>
-    <string name="button0_text">Configure</string>
-    <string name="button1_text">Toggle LED</string>
-    <string name="button2_text">Read Data</string>
-    <string name="button3_text">Connect</string>
-    <string name="button4_text">Disconnect</string>
-    <string name="text_View">Requesting Status</string>
-</resources>
