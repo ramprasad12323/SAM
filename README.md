@@ -27,7 +27,7 @@ Set the pins as input or output as following the pins are from CP0 to CP13
 	con.CP8= uC_Device.Input;
 Configure the Device as follous
 
-	        int i = con.Configure();
+	int i = con.Configure();
 Returns -2 values if the device is not connected, -1 if not configured it is the problem from hardware side and 3 if configured. To send pin values
 
 	con.SP13 = uC_Device.HIGH;
