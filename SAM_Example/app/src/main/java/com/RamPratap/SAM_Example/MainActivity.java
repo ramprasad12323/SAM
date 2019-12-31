@@ -57,8 +57,9 @@ public class MainActivity extends AppCompatActivity {
         con.CP22=uC_Device.Input;
         con.CP23=uC_Device.Input;
         con.CP24=uC_Device.Input;
-        con.CP26=uC_Device.Input;
         con.CP25=uC_Device.Input;
+        con.CP26=uC_Device.Input;
+        con.CP27=uC_Device.Input;
         con.SP13=uC_Device.LOW;
         int i = con.Configure();
         TextView myAwesomeTextView = findViewById(R.id.textView);
