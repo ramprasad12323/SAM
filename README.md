@@ -14,7 +14,7 @@ Create the Object in main activity
 	 uC_Device con;
 Initilize the device in onCreate method
 
-	con = new uC_Device(this,this);
+	con = new uC_Device(this);
 	con.Initialize();
 Returns true if sucessful and false if not sucessful that means your mobile phone does not support the OTG. Then connect to the device
 
